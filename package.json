@@ -1,6 +1,6 @@
 {
   "name": "Arch-Md",
-  "version": "2.1.0",
+  "version": "2.2.2",
   "description": "Next generation Whatsapp bot",
   "main": "main.js",
   "scripts": {
