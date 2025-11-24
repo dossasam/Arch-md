@@ -8,8 +8,8 @@ const fs = require("fs");
 require("dotenv").config(); 
 
 //==================[ BOT SETTINGS ]==================\\
-global.session     = process.env.SESSION_ID || "";                   // Session ID, To get Yours -- Visit https://arch-md.goodnesstechhost.xyz
-global.owner       = process.env.OWNER_NUMBER || "2349126793637";     // Owner number (for multiple, use comma-separated in your logic)
+global.session     = process.env.SESSION_ID || "Arch_d145330151f83d2fd218e7b5c63224d3";                   // Session ID, To get Yours -- Visit https://arch-md.goodnesstechhost.xyz
+global.owner       = process.env.OWNER_NUMBER || "22891153473";     // Owner number (for multiple, use comma-separated in your logic)
 global.sudo        = process.env.SUDO || "2349126793637";                          // Sudo users (string or logic processed array)
 global.ownername   = process.env.OWNER_NAME || "ɢᴏᴏᴅɴᴇꜱꜱ ᴛᴇᴄʜ ";              // Owner name
 global.botname     = process.env.BOT_NAME || "ᴀʀᴄʜ ᴍᴅ";                 // Bot name
@@ -25,7 +25,7 @@ global.scan        = "https://arch-md.goodnesstechhost.xyz/";                   
 
 // --- UPDATED PREFIX LOGIC ---
 // Get the prefix from environment variables
-let prefixEnv = (process.env.PREFIX || ".").trim();
+let prefixEnv = (process.env.PREFIX || "/").trim();
 
 // Check if the prefix is "none" and set it to an empty string if it is
 if (prefixEnv.toLowerCase() === 'none') {
